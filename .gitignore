@@ -1,0 +1,19 @@
+# Cargo build cache and generated binaries. Keep Cargo.lock in Git.
+/target/
+
+# Release staging and archives prepared for GitHub Releases.
+/dist/
+
+# Local boards and private desktop captures, not application source.
+/board.json
+/boards/
+/screenshots/
+
+# Local secrets, logs, and editor/desktop temporary files.
+.env
+.env.*
+!.env.example
+*.log
+*.swp
+*.swo
+.DS_Store
